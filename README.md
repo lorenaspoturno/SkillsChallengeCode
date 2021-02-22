@@ -10,7 +10,7 @@
 - Numbers,
 - Special character,
 - Phase. For the sentence to be evaluated as a palindrome, the complete sentence must be read inversely equal to the original sentence
-- Only one character (letter, number, special character). These will be evaluated as positive cases.
+- Single character (letter, number, special character). These will be evaluated as positive cases.
 
 # Steps:
 1. Open ExercusOne.html from a browser
@@ -21,7 +21,7 @@
 1. 2002
 2. ABA
 3.  AbA
-4. - * -
+4. (- * -)
 5. aBa aba
 6. A
 7. 1
