@@ -14,11 +14,14 @@ Exercise
 <body>
   <script>
   function palindrome (){
-    let word = prompt("Write a word: ");
+    let word = prompt("Enter the string to verify: ");
+    while (word.length === 0 ){
+      word = prompt("Enter the string to verify, the string should not is empty: ");
+    }
     let w1 = word;
     let w2 = word;
-    let string =w1.toLocaleLowerCase().split('');
-    let reverseString = w2.toLocaleLowerCase().split('').reverse();
+    let string =w1.trim().toLocaleLowerCase().split('');
+    let reverseString = w2.trim().toLocaleLowerCase().split('').reverse();
     let flag = true;
 
     for( var i = 0; i<string.length; i++){
